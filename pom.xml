@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.gilt.jdbi-scala</groupId>
   <artifactId>jdbi-scala_2.9.1</artifactId>
-  <version>0.1.0</version>
+  <version>0.2.0-SNAPSHOT</version>
   <name>${project.artifactId}</name>
   <description>Scala enhancements to JDBI</description>
   <inceptionYear>2012</inceptionYear>
