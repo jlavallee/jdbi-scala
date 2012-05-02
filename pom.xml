@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.gilt.jdbi-scala</groupId>
   <artifactId>jdbi-scala_2.9.1</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.0</version>
   <name>${project.artifactId}</name>
   <description>Scala enhancements to JDBI</description>
   <inceptionYear>2012</inceptionYear>
@@ -82,6 +82,18 @@
             <phase>compile</phase>
             <goals>
               <goal>compile</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar</goal>
             </goals>
           </execution>
         </executions>
